@@ -1,5 +1,5 @@
 
-const text = "Meine Liebe,<br> alles Gute zum 6.<br>Jahrestag unserer Freundschaft ❤️";
+const text = "həyatım!<br>Bu gün bizim günümüzdür ❤️";
 const titleEl = document.getElementById("title");
 let i = 0;
 
@@ -58,3 +58,4 @@ closeBtn.onclick = () => (modal.style.display = "none");
 modal.onclick = e => {
   if (e.target === modal) modal.style.display = "none";
 };
+
